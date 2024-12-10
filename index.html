@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+            <textarea name="" id="message" readonly></textarea>
+        </header>
+       
+               
+        <section>
+            <div class="edsonanael">
+                <button class="white" onclick="bt1()"> <div id="button1"> 1</div></button>
+                <button class="white" onclick="bt2()"> <div id="button2"  > 2</div></button>
+                <button class="white" onclick="bt3()"> <div id="button3">3</div></button>
+                <button class="noir" onclick="btplus()"> <div id="button+"> +</div></button>
+            </div>
+            <div class="edsonanael">
+                <button class="white" onclick="bt4()"> <div id="button4"> 4</div></button>
+                <button class="white" onclick="bt5()"> <div id="button5"> 5</div></button>
+                <button class="white" onclick="bt6()"> <div id="button6"> 6</div></button>
+                <button class="noir" onclick="btmultiplication()"> <div id="button*"> *</div></button>
+            </div>
+            <div class="edsonanael">
+                <button class="white" onclick="bt7()"> <div id="button7"> 7</div></button>
+                <button class="white" onclick="bt8()"> <div id="button8">8</div></button>
+                <button class="white" onclick="bt9()"> <div id="button9">9</div></button>
+                <button class="noir" onclick="btdivision()"> <div id="button/"> /</div></button>
+            </div>
+            
+            <div class="edsonanael">
+                <button class="white" onclick="bt0()"> <div id="button0"> 0</div></button>
+                <button class="white" onclick="btpoint()"> <div id="button.">,</div></button>
+                <button class="white" onclick="bt00()"> <div id="button00"> </div>00</button>
+                <button class="noir" onclick="btmoins()"> <div id="button-"> -</div></button>
+                
+            </div>
+            <div  style="display: none;" id="lucio">
+                <div class="edsonanael">
+                    <button class="white" onclick="btracine()" id="buttonracine">√</button>
+                    <button class="white" onclick="btfactoriel()" id="buttonfactoriel">!</button>
+                    <button class="white" onclick="btpuissance()" id="buttonpuissance">^</button>
+                    <button class="noir" onclick="btmodulo()" id="buttonmodulo">%</button>
+                </div>
+            
+                <div class="edsonanael">
+                    <button class="white" onclick="btexpo()" id="buttonexpo">e</button>
+                    <button class="white" onclick="btcos()" id="buttoncos">cos</button>
+                    <button class="white" onclick="btsin()" id="buttonsin">sin</button>
+                    <button class="noir" onclick="bttag()" id="buttontag">tan</button>
+                </div>
+            
+                <div class="edsonanael">
+                    <button class="white" onclick="btlog()" id="buttonlog">log</button>
+                    <button class="white" onclick="btbinaire()" id="buttonbinaire">b2</button>
+                    <button class="white" onclick="btdecimal()" id="buttondecimal">b10</button>
+                    <button class="noir" onclick="bthexa()" id="buttonhexa">b16</button>
+                </div>
+                <br>
+            </div>
+            <div class="last">
+                <button class="red" onclick="btegal()">
+                   <div id="egal"> =</div>
+                </button>
+                <button class="noir" onclick="btsuppression()">
+                    <div id="suppression" >C</div>
+                </button>
+                <br>
+            </div>
+            <div class="end">
+                <button class="noir" onclick="btsuppression()" id="olga">
+                    <div id="suppression" >SCIENTIFIQUE</div>
+                </button>
+            </div>
+            
+        </section >
+        <footer>
+           
+            <div class="footer">
+                <div>
+                    <p>CALCULATOR BY NKAM </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="scipt/tp.js"></script>
+</body>
+</html>
